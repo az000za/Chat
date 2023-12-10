@@ -1,0 +1,35 @@
+<html>
+    <body id="root"></body>
+    <script type="text/javascript" src="https://az000za.github.io/DevCore/Data.html"></script>
+    <script type="text/javascript" src="https://az000za.github.io/DevCore/UINode.html"></script>
+        class Header extends UINode {
+            constructor(app){
+                super(app);
+            }
+            html = `
+            <div class="header">
+                <div class="channel">
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <button>INVITE</button>
+                    <div>
+                        www.channelweb.com/0/www.google.com
+                    </div>
+                </div>
+            </div>
+            `;
+            css = `
+            
+            `;
+            js = {
+        
+            }
+            render(){
+                return this.html;
+            }
+        }
+    </script>
+</html>
